@@ -1,0 +1,61 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+/* 헤더 변경 */
+#header { height: 160px; }
+#header h1 { padding-top: 76px; }
+#gnb { top: 93px;}
+/* 서브본문 */
+#container { }
+#subHeader { height: 300px; background: no-repeat / center; text-align: center;}
+/* #subHeader::before { content: ""; background: rgba(0, 0, 0, 0.5); position: absolute; top: 160px; left: 0; width: 100%; height: 300px; } */
+.subHeaderCompany { background-image: url(../images/subTitleCompany.jpg); }
+#subHeader h2 { padding-top: 60px; font-family: 'Bebas Neue', cursive; font-size: 150px; color: rgb(88, 82, 82); }
+/* snb */
+#subWrap { width: 1000px; height: 680px; margin: 0 auto; }
+#snb { width: 240px; float: left; box-sizing: border-box; }
+#snb h3 { margin: 30px 0 20px; line-height: 100px;background:rgb(88, 82, 82); color: #fff;
+          font-size: 30px; text-transform: uppercase; text-align: center ; }
+#snb ul li {  }
+#snb ul li a { display: block; padding-left: 10px; color: #000; line-height: 50px; font-size: 15px; 
+               background: url(../images/bulletSnb.png) no-repeat center right;
+               text-transform: uppercase; border-bottom: 1px solid #000;}
+#snb li a:hover { border-bottom-color: rgb(231, 157, 19);
+                  background-image: url(../images/bulletSnbOver.png);
+                  color: rgb(231, 157, 19);}
+/* article */
+#subContent { width: 700px; float: right;  }
+#subContent h3 { margin-top: 32px; color: #c6c6c6; font-size: 45px; font-family:'Cormorant Garamond', serif;
+                  }
+#subContent figure { float: right; }
+#subContent figure figcaption { text-align: center; color: #3c9cec; }
+#subContent p { margin-left: 20px; align: right; }
+/* customer */
+#subHeader.subHeaderCustomer { background: url(../images/subTitleCustomer.jpg) no-repeat; }
+#notice { width: 660px; }
+#notice thead { height: 30px; }
+#notice thead th { height: 30px; font-weight: normal; color: #fff; text-transform: capitalize; 
+                   background: linear-gradient(180deg, #6dbaf2 0%, #246fd2 100%);
+                   }
+#notice thead th.no { width: 56px; border-radius: 5px 0 0 5px;}
+#notice thead th.title { width: 376px; letter-spacing: 0.5em;}
+#notice thead th.write { width: 100px;}
+#notice thead th.date { width: 72px;}
+#notice thead th.read { width: 56px; border-radius: 0 5px 5px 0;}
+#notice tbody { }
+#notice tbody td { padding: 5px 0; text-align: center;
+                   border-bottom: 1px solid #000; }
+#notice tbody td.listTitle { text-align: left; }
+#notice tbody td div { width: 376px;
+                       white-space: nowrap;
+                       overflow: hidden;
+                       text-overflow: ellipsis; }
+#noticeSearch { margin: 16px 45px 35px 0; text-align: right;}
+#noticeSearch input { border: 1px solid #333; border-radius: 10px}
+#seachBox { width: 200px; height: 20px; text-indent: 10px; background: #fefdeb;}
+#searchBtn { width: 88px; height: 22px; border-radius: 10px; 
+             color: #fff;
+             background: linear-gradient(180deg, #6dbaf2 0%, #246fd2 100%);}
+/* 페이서 번호 */
+#page_control { margin-right: 45px; text-align: center;}
+#page_control a { margin: 0 13px; color: #333;}
